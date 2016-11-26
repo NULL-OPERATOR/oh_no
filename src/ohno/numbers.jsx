@@ -15,6 +15,15 @@ export function Numbers(props) {
     // </li>
   );
   return (
-    <ul>{listItems}</ul>
+    <div>
+      <ul>{listItems}</ul>
+
+      <ul>
+        {numbers.map((number) =>
+          <ListItem key={number.toString()}
+                    value={number} />
+        )}
+      </ul>
+    </div>
   );
 }
