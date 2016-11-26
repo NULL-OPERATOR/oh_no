@@ -27,7 +27,7 @@ export class Toggle extends React.Component {
     const listItems = numbers.map((number) => <li>{number}</li>);
     return (
       <div>
-        <ul>{listItems}</ul>
+        <ul> {listItems}</ul>
         <Page />,
         <button onClick={this.handleClick}>
           {this.state.isToggleOn ? 'ON' : 'OFF'}
