@@ -18,7 +18,7 @@ export function Greeting(props) {
       {name}
 
       {props.isLogged === true &&
-        <h2>
+        <h2 >
           You have 33 unread messages.
         </h2>
       }

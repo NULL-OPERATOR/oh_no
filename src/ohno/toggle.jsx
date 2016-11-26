@@ -3,6 +3,10 @@ import {Greeting} from './greeting.jsx'
 import {Page} from './page.jsx'
 
 export class Toggle extends React.Component {
+
+
+
+
   constructor(props) {
     super(props);
     this.state = {isToggleOn: true};
@@ -19,8 +23,11 @@ export class Toggle extends React.Component {
   }
 
   render() {
+    const numbers = [1, 2, 3, 4, 5];
+    const listItems = numbers.map((number) => <li>{number}</li>);
     return (
       <div>
+        <ul>{listItems}</ul>
         <Page />,
         <button onClick={this.handleClick}>
           {this.state.isToggleOn ? 'ON' : 'OFF'}
