@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import {Toggle} from './ohno/toggle';
 import {Clock} from './ohno/clock';
