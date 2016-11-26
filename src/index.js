@@ -12,11 +12,6 @@ ReactDOM.render(
   document.getElementById('toggle')
 );
 
-// ReactDOM.render(
-//   <Greeting />,
-//   document.getElementById('toggle')
-// );
-
 ReactDOM.render(
   <Clock />,
   document.getElementById('clock')
