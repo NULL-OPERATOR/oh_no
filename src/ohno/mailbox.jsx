@@ -1,8 +1,10 @@
-function Mailbox(props) {
+import React from 'react';
+
+export function Mailbox(props) {
   const unreadMessages = props.unreadMessages;
   return (
     <div>
-      <h1>PROPS</h1>
+      <h1>mad props</h1>
       {unreadMessages.length > 0 &&
         <h2>
           you have {unreadMessages.length} unread yo.
@@ -11,6 +13,3 @@ function Mailbox(props) {
     </div>
   )
 }
-
-
-const messages = ['Lots', 'of', 'spam', 'awww', 'yisss']
