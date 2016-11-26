@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom';
-import {Toggle} from './test/toggle';
-import {Clock} from './test/clock';
-import {Greeting} from './test/greeting';
+import {Toggle} from './ohno/toggle';
+import {Clock} from './ohno/clock';
+import {Greeting} from './ohno/greeting';
 // import App from './App';
 import './index.css';
 
@@ -21,8 +21,3 @@ ReactDOM.render(
   <Clock />,
   document.getElementById('clock')
 );
-
-// ReactDOM.render(
-//   <Greeting />,
-//   document.getElementById('greeting')
-// );
