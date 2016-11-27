@@ -6,6 +6,8 @@ import {Numbers} from './ohno/numbers';
 // import {Greeting} from './ohno/greeting';
 import {Mailbox} from './ohno/mailbox';
 import {Blog} from './ohno/blog';
+import {Form} from './ohno/form';
+import {FlavourForm} from './ohno/flavourform';
 // import App from './App';
 import './index.css';
 
@@ -15,6 +17,19 @@ const posts = [
   {id: 1, title: 'Hello World', content: 'oooooh no!'},
   {id: 2, title: 'Installation', content: 'You can install React from npm Oh Yes.'}
 ];
+
+
+
+
+ReactDOM.render(
+  <FlavourForm />,
+  document.getElementById('flavourform')
+);
+
+ReactDOM.render(
+  <Form />,
+  document.getElementById('form')
+);
 
 ReactDOM.render(
   <Toggle />,
