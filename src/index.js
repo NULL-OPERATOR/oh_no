@@ -8,6 +8,7 @@ import {Mailbox} from './ohno/mailbox';
 import {Blog} from './ohno/blog';
 import {Form} from './ohno/form';
 import {FlavourForm} from './ohno/flavourform';
+import {Boiling} from './ohno/boiling';
 // import App from './App';
 import './index.css';
 
@@ -20,6 +21,11 @@ const posts = [
 
 
 
+
+ReactDOM.render(
+  <Boiling />,
+  document.getElementById('boiling')
+);
 
 ReactDOM.render(
   <FlavourForm />,
