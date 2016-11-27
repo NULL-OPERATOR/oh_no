@@ -2,7 +2,9 @@ import React from 'react';
 
 export function Greeting(props) {
   let name
-  // console.log(props)
+  var style = {
+    background: 'green',
+  }
 
   if (props.isLogged) {
     name = 'Welcome'
@@ -16,12 +18,12 @@ export function Greeting(props) {
       {name}
 
       {props.isLogged === true &&
-        <h2>
+        <h2 >
           You have 33 unread messages.
         </h2>
       }
 
-      <div>
+      <div style={style}>
         The user is <b>{props.isLogged ? 'currently' : 'not'}</b> logged in.
       </div>
 
