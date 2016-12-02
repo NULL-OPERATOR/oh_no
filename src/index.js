@@ -8,7 +8,7 @@ import {Mailbox} from './ohno/mailbox';
 import {Blog} from './ohno/blog';
 import {Form} from './ohno/form';
 import {FlavourForm} from './ohno/flavourform';
-import {Boiling} from './ohno/boiling';
+import {Calculator} from './ohno/boiling';
 // import App from './App';
 import './index.css';
 
@@ -19,11 +19,8 @@ const posts = [
   {id: 2, title: 'Installation', content: 'You can install React from npm Oh Yes.'}
 ];
 
-
-
-
 ReactDOM.render(
-  <Boiling />,
+  <Calculator />,
   document.getElementById('boiling')
 );
 
